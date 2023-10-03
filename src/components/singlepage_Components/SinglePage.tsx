@@ -21,7 +21,7 @@ export default function SinglePage(pross: pros) {
         <SinglePageInfo
           title={pross.pro.title}
 
-          rating={pross.pro.rating} subtitle={""} price={0} />
+          rating={pross.pro.rating} price={pross.pro.price} />
       </div>
 
 

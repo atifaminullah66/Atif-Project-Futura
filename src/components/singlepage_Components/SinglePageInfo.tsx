@@ -2,7 +2,7 @@
 
 type prop = {
   title: string,
-  subtitle: string,
+
   rating: number,
   price: number,
 
