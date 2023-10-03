@@ -47,11 +47,11 @@
 }
 
 .card {
+
+  border: 2px solid black !important;
   padding: 1rem 1.2rem;
-  border-radius: var(--border-radius);
-  background: rgba(var(--card-rgb), 0);
-  border: 1px solid rgba(var(--card-border-rgb), 0);
-  transition: background 200ms, border 200ms;
+width: 20% !important;
+margin: 2px 0px;
 }
 
 .card span {
@@ -140,12 +140,20 @@
 
   .card {
     padding: 1rem 2.5rem;
+   
+  }
+  .card2{
+    display: flex;
+    width: 20%;
+    background-color: aquamarine;
   }
 
   .card h2 {
     margin-bottom: 0.5rem;
   }
-
+.arrange{
+  width: 50% !important;
+}
   .center {
     padding: 8rem 0 6rem;
   }
