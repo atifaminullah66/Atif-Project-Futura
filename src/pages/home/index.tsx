@@ -5,6 +5,7 @@ import { Product } from "@/types/Product";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import 'bootstrap/dist/css/bootstrap.css';
+import Layout from "@/components/navbar/navbar";
 
 
 
@@ -32,8 +33,10 @@ export default function index() {
 
 
   return (
-    <div className="d-flex  flex-wrap   w-80  mx-4  ">
-      {obs}
-    </div>
+    <Layout>
+      <div className="d-flex  flex-wrap   w-80  mx-4  ">
+        {obs}
+      </div>
+    </Layout>
   )
 }

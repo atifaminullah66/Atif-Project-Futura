@@ -14,22 +14,23 @@ export default function Mainpage(prod: Props) {
 
 
 
-    
-    <div className="  my-4  mx-4  d-flex  arrange">
-      <a className="card  " href={`home/${prod.product.id}`}>
-        <div className={styles.top}>
-          <div>
 
-            <ImageComponentMain image={prod.product.images} />
-          </div>
-          <div>
-            <MainInfo title={prod.product.title} ratings={prod.product.rating} price={prod.product.price} />
+    <div className="card my-4  mx-4  d-flex  arrange bg-warning  ">
 
-          </div>
+      <div className={styles.top}>
+        <div>
+
+          <ImageComponentMain image={prod.product.images} />
+        </div>
+        <div>
+          <MainInfo title={prod.product.title} ratings={prod.product.rating} price={prod.product.price} id={prod.product.id} discountPercentage={prod.product.discountPercentage} />
 
 
         </div>
-      </a>
+
+
+      </div>
+
     </div>
   )
 }

@@ -1,3 +1,4 @@
+import Layout from "@/components/navbar/navbar";
 import SinglePage from "@/components/singlepage_Components/SinglePage";
 import { Product } from "@/types/Product";
 import axios from "axios";
@@ -31,12 +32,16 @@ export default function index() {
 
 
   return (
+    <Layout>
+
+    
     <div >
       {product !== undefined ?
         <SinglePage pro={product} /> :
         <p>working</p>}
 
     </div>
+    </Layout>
   );
 }
 

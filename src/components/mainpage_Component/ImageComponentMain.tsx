@@ -1,4 +1,6 @@
 import { Product } from "@/types/Product";
+import { Swiper, SwiperSlide } from "swiper/react";
+
 import Image from "next/image";
 
 type MyProps = {
@@ -11,10 +13,13 @@ export default function ComponentWithImage(props: MyProps) {
     return <p>No Image</p>
   }
   return <>
-    <img
-      src={props.image[0]}
-      width={250}
-      height={250}
-    />
+    <div className="d-flex justify-content-center object-fit-contain  ">
+      <img
+        src={props.image[0]}
+        width={250}
+        height={250}
+
+      />
+    </div>
   </>
 } 

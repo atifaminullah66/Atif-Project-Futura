@@ -1,39 +1,20 @@
-import Image from "next/image";
+import React from 'react';
+import ImageGallery from 'react-image-gallery';
+import "react-image-gallery/styles/css/image-gallery.css";
 
 type Props = {
   images: string[];
 };
-import React from 'react'
-
-
-
 
 export default function ImageComponentSingle(props: Props) {
-
-
+  const images = props.images.map((image) => {
+    return {
+      original: image,
+      thumbnail: image,
+    };
+  });
 
   return (
-    <>
-
-      <div className="row">
-
-        {props.images.map((image, index) => {
-          return (
-            <div key={index} className="column">
-              <img
-                className="demo cursor"
-                src={image}
-
-                alt="..."
-              />
-            </div>
-          );
-        })}
-
-      </div>
-
-    </>
+    <ImageGallery items={images} />
   );
-
-};
-
+}
