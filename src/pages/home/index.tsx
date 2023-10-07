@@ -34,7 +34,7 @@ export default function index() {
 
   return (
     <Layout>
-      <div className="d-flex  flex-wrap   w-80  mx-4  ">
+      <div className="d-flex  justify-content-center  flex-wrap   w-80  mx-4  ">
         {obs}
       </div>
     </Layout>

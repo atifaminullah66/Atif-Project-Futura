@@ -6,11 +6,11 @@ export default function ContactForm() {
         <form>
           <h3 className="mb-4">Contact Form</h3>
           <div className="row mb-3">
-            <div className="col">
+            <div className="row-md-6">
               <label htmlFor="firstName" className="form-label">First Name</label>
               <input type="text" className="form-control" id="firstName" placeholder="Enter your first name" />
             </div>
-            <div className="col">
+            <div className="row-md-6">
               <label htmlFor="lastName" className="form-label">Last Name</label>
               <input type="text" className="form-control" id="lastName" placeholder="Enter your last name" />
             </div>

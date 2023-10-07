@@ -15,9 +15,9 @@ export default function Mainpage(prod: Props) {
 
 
 
-    <div className="card my-4  mx-4  d-flex  arrange bg-warning  ">
+    <div className="card my-4  mx-4  d-flex justify-content-center   arrange bg-warning  ">
 
-      <div className={styles.top}>
+      <div className={styles.top} >
         <div>
 
           <ImageComponentMain image={prod.product.images} />
