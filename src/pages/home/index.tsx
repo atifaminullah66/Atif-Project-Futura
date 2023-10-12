@@ -4,7 +4,7 @@ import Mainpage from "@/components/mainpage_Component/Mainpage";
 import { Product } from "@/types/Product";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import 'bootstrap/dist/css/bootstrap.css';
+
 import Layout from "@/components/navbar/navbar";
 
 

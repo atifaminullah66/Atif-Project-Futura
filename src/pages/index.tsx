@@ -71,10 +71,10 @@ export default function Home() {
 
             {/* Right buttons */}
             <div className='col-md text-center   '>
-              <a href="/home" className='btn btn-danger    '><b className='fs-3   '> Products Page</b></a>
+              <a href="/home" className='btn btn-warning    '><b className='fs-3   '> Products Page</b></a>
             </div>
             <div className='col-md text-center  '>
-              <a href="/" className='btn btn-success '><b className='fs-3 '> Contact us</b></a>
+              <a href="/contact" className='btn btn-danger '><b className='fs-3 '> Contact us</b></a>
             </div>
 
 

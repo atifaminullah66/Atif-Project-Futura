@@ -2,7 +2,7 @@
 import { Product } from "@/types/Product";
 import React from 'react'
 import SinglePageInfo from './SinglePageInfo';
-import 'bootstrap/dist/css/bootstrap.css';
+
 import ImageComponentSingle from "./ImageComponentSingle";
 
 
