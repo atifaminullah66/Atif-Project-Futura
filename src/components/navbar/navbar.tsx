@@ -1,10 +1,10 @@
 import type { ReactElement } from 'react';
 
-type LayoutProps = {
+type props = {
   children: ReactElement;
 };
 
-export default function Layout({ children }: LayoutProps) {
+export default function Layout({ children }: props) {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">

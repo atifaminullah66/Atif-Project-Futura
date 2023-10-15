@@ -7,8 +7,6 @@ import { useEffect, useState } from "react";
 
 import Layout from "@/components/navbar/navbar";
 
-
-
 export default function index() {
 
   const [products, setProduct] = useState<Product[]>();
