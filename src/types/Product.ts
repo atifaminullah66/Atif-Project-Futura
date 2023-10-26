@@ -1,14 +1,15 @@
 export type Product = {
-  id : number,
+  id : string,
   title : string,
-  description : string,
-  price : number,
-  discountPercentage : number,
+  subtitle : string,
   rating : number,
-  stocks : number,
-  brand : string,
-  category : string,
-  thumbnail : string,
-  images : string[],
+  price : number,
+  description1 : string,
+  description2 : string,
+  description3 : string,
+  image : {
+    src : string,
+    alt : string
+  },
     
   }

@@ -37,7 +37,7 @@ export default function Home() {
 
   return (
 
-    <Layout>
+    <>
 
       {/* <main className='m-4 w-100 '> */}
 
@@ -83,7 +83,7 @@ export default function Home() {
       </div>
 
       {/* </main> */}
-    </Layout >
+    </ >
 
   )
 }

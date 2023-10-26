@@ -17,7 +17,7 @@ export default function Layout({ children }: props) {
             </a></div>
 
             {/* Headings */}
-            <div className="col-md-4">
+            <div className="col-md">
 
               <div className="navbar-collapse d-flex  justify-content-center" id="navbarNavDropdown">
                 <ul className="navbar-nav ">
@@ -28,24 +28,15 @@ export default function Layout({ children }: props) {
                     <a className="nav-link text-light" href="/home">Products</a>
                   </li>
                   <li className="nav-item mx-4">
+                    <a className="nav-link text-light" href="/about">About us</a>
+                  </li>
+                  <li className="nav-item mx-4">
                     <a className="nav-link text-light" href="/contact">Contact</a>
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="col-md-4">
-              <form className="d-flex mx-2">
-                <input
-                  className="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button className="btn btn-outline-light" type="submit">
-                  Search
-                </button>
-              </form>
-            </div>
+
 
 
 

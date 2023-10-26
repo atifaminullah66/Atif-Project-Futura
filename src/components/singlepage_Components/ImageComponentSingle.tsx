@@ -3,18 +3,14 @@ import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css";
 
 type Props = {
-  images: string[];
+  src: string,
+  alt: string
 };
 
 export default function ImageComponentSingle(props: Props) {
-  const images = props.images.map((image) => {
-    return {
-      original: image,
-      thumbnail: image,
-    };
-  });
+
 
   return (
-    <ImageGallery items={images} />
+    <img src={props.src} alt={props.alt} width={400} height={400} />
   );
 }

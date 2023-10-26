@@ -4,18 +4,17 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 
 type MyProps = {
-  image: string[] | undefined,
+  src: string,
+  alt: string
 
 }
 
 export default function ComponentWithImage(props: MyProps) {
-  if (!props.image) {
-    return <p>No Image</p>
-  }
+
   return <>
     <div className="d-flex justify-content-center object-fit-contain  ">
       <img
-        src={props.image[0]}
+        src={props.src}
         width={250}
         height={250}
 

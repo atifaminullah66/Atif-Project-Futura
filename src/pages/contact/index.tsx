@@ -6,9 +6,9 @@ import Layout from "@/components/navbar/navbar";
 export default function index() {
   return (
     <div>
-      <Layout>
-        <Formper />
-      </Layout>
+
+      <Formper />
+
     </div>
   )
 }

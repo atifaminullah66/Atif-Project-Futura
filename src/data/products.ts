@@ -10,7 +10,7 @@ description1: "Macchina per Caffè con sistema Nespresso Original Line e pompa a
 description2:"In omaggio buono da 20€ spendibile sull'acquisto di prodotti Nespresso",
 description3:"2 lunghezze in tazza programmabili in base alla quantità di caffè che preferisci: Espresso e Lungo ",
 image: {
-  src: "/Nespresso Inissia EN80.B, Macchina da caffè di De'Longhi, Sistema Capsule Nespresso, Serbatoio acqua 0.7L.jpg",
+  src: "/headphone.jpg",
   alt: "Nespresso"
 }
 },
